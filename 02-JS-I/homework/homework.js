@@ -70,7 +70,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.length==str2.length){
+  if(str1.length===str2.length){
     return true;
   }
     return false;
@@ -106,7 +106,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num%2==0){
+  if(num%2===0){
     return true;
   }
     return false;
@@ -247,7 +247,7 @@ function esVocal(letra){
      if(letra!=="A","a","E","e","I","i","O","o","U","u"){
       return error;
      }
-       if(letra=="A","a","E","e","I","i","O","o","U","u"){
+       if(letra==="A","a","E","e","I","i","O","o","U","u"){
         return vocal;
        }
 
